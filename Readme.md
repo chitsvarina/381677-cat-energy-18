@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Евгения Бондарева](https://up.htmlacademy.ru/adaptive/18/user/381677).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгений Билый](https://htmlacademy.ru/profile/id1218831).
 
 ---
 

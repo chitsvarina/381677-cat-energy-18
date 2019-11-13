@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Кэт энерджи - Каталог</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container main-logo">
+        <a href="index.html"><img class="main-logo__icon" src="http://placehold.it/34x41" width="34" height="41" alt="Иконка магазина Кэт энерджи"></a>
+        <p class="main-logo__label logo-label"><b>Cat</b>Energy</p>
+      </div>
+      <nav class="main-nav">
+        <button class="main-nav__toggle-btn visually-hidden">Показать меню</button>
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Главная</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Каталог продукции</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Подбор программы</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="main-heding">Подбор программы</h1>
+      <section class="request">
+        <h2 class="request__heading">Форма заявки на подбор питания</h2>
+        <p claass="request__note">Заполните анкету и мы подберем программу питания для вашего кота</p>
+        <form class="request__form form" action="#">
+          <fielset class="form__personal-data">
+            <label class="form__name-fieldname">Имя:*<input class="form__name-field" type="text" placeholder="Барсик" required></label>
+            <label class="form__weight-fieldname">Вес:*<input class="form__weight-field" type="text" placeholder="7" required></label>
+            <label class="form__age-fieldname">Возраст:<input class="form__age-field" type="text" placeholder="7"></label>
+          </fielset>
+          <fieldset class="form__program-selection">
+            <label class="form__program-fieldname"><input class="form__program-field" type="radio" checked>Похудение</label>
+            <label class="form__program-fieldname"><input class="form__program-field" type="radio">Набор массы</label>
+            <label class="form__program-fieldname"><input class="form__program-field" type="radio">Не знаю (нужен ваш совет)</label>
+          </fieldset>
+          <fieldset class="form__contacts">
+            <legend class="form_sub-heading">Контактные данные (владельца кота)</legend>
+            <label class="form__email-fieldname">E-mail:*<input type="email" class="form__email-field" placeholder="kuklachev@gmail.com" required></label>
+            <label class="form__tel-fieldname">Телефон:*<input type="tel" class="form__tel-field" placeholder="8 (960) 900-60-90" required></label>
+          </fieldset>
+          <fieldset class="form__comment">
+            <legend class="form_sub-heading">Комментарий</legend>
+            <textarea class="form__comment-field" rows="8" placeholder="Расскажие обо всех повадках кота"></textarea>
+          </fieldset>
+          <fieldset class="form__supplements">
+            <legend class="form_sub-heading">Дополнительно</legend>
+            <label class="form__supplements-fieldname"><input type="checkbox" class="form__supplements-field" checked>Сахарозаменитель</label>
+            <label class="form__supplements-fieldname"><input type="checkbox" class="form__supplements-field">Питьевая вода</label>
+            <label class="form__supplements-fieldname"><input type="checkbox" class="form__supplements-field">Молоко</label>
+            <label class="form__supplements-fieldname"><input type="checkbox" class="form__supplements-field">Витамины</label>
+          </fieldset>
+          <button class="form__send-btn" type="button">Отправить заявку</button>
+          <span class="form__note">* &mdash; Обязательные поля</span>
+        </form>
+      </section>
+      <section class="contacts">
+        <div class="contacts__location container">
+          <p class="contacts__slogan">Приглашаем к сотрудничеству дилеров!</p>
+          <address class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+        </div>
+        <div class="contacts__map">
+          <map class="contacts__map-pic" name=""></map>
+          <img class="contacts__map-point" src="http://placehold.it/55x53" width="55" height="53" alt="">
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p class="logo-label"><b>Cat</b>Energy</p>
+        <ul class="social">
+          <li><a class="social-link" href="#" area-label="Магазин питания Кэт энерджи во Вконтакте"></a></li>
+          <li><a class="social-link" href="#" area-label="Магазин питания Кэт энерджи в Инстаграмм"></a></li>
+          <li><a class="social-link" href="#" area-label="Магазин питания Кэт энерджи на Фейсбуке"></a></li>
+        </ul>
+        <div class="copyright">
+          <a class="copyright__logo-label" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          <a class="copyright__icon-label" href="https://htmlacademy.ru/intensive/adaptive"><img src="http://placehold.it/27x34" alt="Иконка логотипа HtmlAcademy"></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

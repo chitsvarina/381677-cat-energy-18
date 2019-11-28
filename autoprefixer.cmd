@@ -9,7 +9,7 @@ IF EXIST "%dp0%\node.exe" (
   SET PATHEXT=%PATHEXT:;.JS;=;%
 )
 
-"%_prog%"  "%dp0%\node_modules\npm\bin\npx-cli.js" %*
+"%_prog%"  "%dp0%\node_modules\autoprefixer\bin\autoprefixer" %*
 ENDLOCAL
 EXIT /b %errorlevel%
 :find_dp0
